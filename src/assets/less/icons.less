@@ -1,0 +1,20 @@
+.star-icon {
+    background-image: url("https://image.flaticon.com/icons/svg/0/557.svg");
+		.icons-propierties(12px,12px);
+}
+.back-icon {
+    background-image: url("https://nutriliving-images.imgix.net/images/shop/left-arrow.svg");
+		.icons-propierties(12px,12px);
+}
+.icons-propierties(@width:25px;@height:25px){
+ background-repeat:no-repeat;
+    background-size: contain;
+    display: inline-block;
+    .box(@width,@height);
+}
+.box(@width,@height,@background-color:transparent)
+{
+    width: @width;
+    height:@height;
+    background-color:@background-color; 
+}
