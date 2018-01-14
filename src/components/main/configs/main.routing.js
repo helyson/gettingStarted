@@ -2,8 +2,6 @@ import forEach from "lodash/forEach";
 
 export default function ($stateProvider, $urlRouterProvider) {
     "ngInject";
-    $urlRouterProvider.otherwise("/product-list");
-    $urlRouterProvider.when("", "/product-list");
     let states = [
         {
             name: "product-list",
